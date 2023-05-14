@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
 
@@ -71,4 +71,4 @@ void free_listint(listint_t *head)
         head = head->next;
         free(current);
     }
-}i
+}
